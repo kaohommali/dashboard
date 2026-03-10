@@ -189,7 +189,7 @@ export default function SessionSettings() {
               {/* Status */}
               <div className="resistance-status" style={{ margin: "14px 0 10px" }}>
                 {isResConfirmed
-                  ? <span className="resistance-confirmed">✅ Confirmed at level {confirmedRes}</span>
+                  ? <span className="resistance-confirmed">✓ Confirmed at level {confirmedRes}</span>
                   : <span className="resistance-unconfirmed">Not confirmed — tap confirm to send to machine</span>
                 }
               </div>
